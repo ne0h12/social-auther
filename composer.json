@@ -8,6 +8,9 @@
             "email": "ne0h12@yandex.ru"
         }
     ],
+    "autoload": {
+      "psr-0": { "SocialAuther": "lib/" }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
