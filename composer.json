@@ -1,0 +1,13 @@
+{
+    "name": "ne0h12/social-auther",
+    "description": "Social auther on our site",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Andrew Klyachin",
+            "email": "ne0h12@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
