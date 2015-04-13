@@ -28,7 +28,7 @@ class Facebook extends AbstractAdapter
     public function getAvatar()
     {
         $result = null;
-        if (isset($this->userInfo['username'])) {
+        if (isset($this->userInfo['id'])) {
             $result = 'http://graph.facebook.com/' . $this->userInfo['id'] . '/picture?type=large';
         }
 
