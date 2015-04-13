@@ -29,7 +29,7 @@ class Facebook extends AbstractAdapter
     {
         $result = null;
         if (isset($this->userInfo['username'])) {
-            $result = 'http://graph.facebook.com/' . $this->userInfo['username'] . '/picture?type=large';
+            $result = 'http://graph.facebook.com/' . $this->userInfo['id'] . '/picture?type=large';
         }
 
         return $result;
